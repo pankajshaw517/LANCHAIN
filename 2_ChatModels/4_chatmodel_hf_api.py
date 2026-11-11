@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm = HuggingFaceEndpoint(
-    repo_id="deepseek-ai/DeepSeek-V4-Pro-0813",
+    repo_id="xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
     task="text-generation"
 )
 
